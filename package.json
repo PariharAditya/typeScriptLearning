@@ -1,0 +1,30 @@
+{
+  "name": "typescriptlearning",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "lesson1": "ts-node src/lessons/lesson1-basic-types.ts",
+    "lesson2": "ts-node src/lessons/lesson2-interfaces.ts",
+    "lesson3": "ts-node src/lessons/lesson3-classes.ts",
+    "lesson4": "ts-node src/lessons/lesson4-generics.ts",
+    "lesson5": "ts-node src/lessons/lesson5-advanced-types.ts",
+    "lesson6": "ts-node src/lessons/lesson6-utility-types.ts",
+    "exercises": "ts-node src/exercises/exercises.ts",
+    "advanced-exercises": "ts-node src/exercises/advanced-exercises.ts",
+    "advanced-solutions": "ts-node src/exercises/advanced-exercises-solutions.ts",
+    "solutions": "ts-node src/exercises/exercises-solutions.ts"
+  },
+  "keywords": ["typescript", "learning", "tutorial", "beginner"],
+  "author": "",
+  "license": "ISC",
+  "description": "A beginner-friendly TypeScript learning project with lessons and exercises",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

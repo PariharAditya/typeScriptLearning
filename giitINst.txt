@@ -1,0 +1,4 @@
+git config --global credential.helper cache
+git credential-cache exit
+git pull
+git push -u origin mainff
