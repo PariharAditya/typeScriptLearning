@@ -1,5 +1,7 @@
 import React from "react";
-import StateExercisesDashboard from "./learning/solutions/StateExercisesDashboard";
+import SkillAssessmentTool from "./learning/solutions/SkillAssessmentTool";
+// Previous learning components
+// import StateExercisesDashboard from './learning/solutions/StateExercisesDashboard';
 // Your previous work - uncomment to see your implementations
 // import { PersonalInfoCard } from "./learning/exercises/pesonalInfo";
 // import { WeatherCard } from "./learning/exercises/weatherExample";
@@ -11,8 +13,11 @@ import StateExercisesDashboard from "./learning/solutions/StateExercisesDashboar
 function App() {
   return (
     <div className="App">
-      {/* Lesson 3: State Management with useState */}
-      <StateExercisesDashboard />
+      {/* Skill Assessment - Find your level and get personalized recommendations */}
+      <SkillAssessmentTool />
+
+      {/* Previous lessons - uncomment to revisit */}
+      {/* <StateExercisesDashboard /> */}
 
       {/* Your previous implementations from Lesson 1 & 2 */}
       {/* Uncomment below to see your work */}
@@ -48,5 +53,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
